@@ -3,8 +3,8 @@ revolte:
   project: Replit
   appName: LoggerService
   env:
-    qa:
-      branch: main
+    staging:
+      branch: staging
       services:
         rid_1:
           name: SubscriptionService
