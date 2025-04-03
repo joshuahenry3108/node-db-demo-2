@@ -3,8 +3,8 @@ revolte:
   project: CLIDeployment
   appName: FE APP1
   env:
-    qa:
-      branch: qa
+    staging:
+      branch: stg
       services:
         rid_1:
           name: SubscriptionService
