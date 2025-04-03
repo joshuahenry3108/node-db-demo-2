@@ -10,6 +10,7 @@ import { caCertificate } from "./data.js";
 
 // console.log({ ca });
 
+
 const AppDataSource = new DataSource({
   type: "postgres",
   host: process.env.DATABASE_URL ?? "localhost",
