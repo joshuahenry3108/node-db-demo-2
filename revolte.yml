@@ -1,10 +1,10 @@
 revolte:
   version: '1.0'
-  project: Replit
-  appName: LoggerService
+  project: CLIDeployment
+  appName: FE APP1
   env:
-    staging:
-      branch: staging
+    qa:
+      branch: qa
       services:
         rid_1:
           name: SubscriptionService
