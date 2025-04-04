@@ -8,7 +8,7 @@ const startServer = async () => {
   await connectDB();
   // Define request response in root URL (/)
   app.get("/", function (req, res) {
-    res.send("Dockerize the node app");
+    res.send("Version 2 changed for roll back");
   });
 
   // Define request response in root URL (/)
