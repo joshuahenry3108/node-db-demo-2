@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Replit
-  appName: LoggerService
+  project: Asther
+  appName: authentication-service
   env:
     qa:
       branch: main
@@ -24,10 +24,10 @@ revolte:
             port: 8080
             variables:
               BASE_URL: /api/v1
-              DATABASE_URL: '#{db.dbUrl}'
-              DATABASE_PORT: '#{db.dbPort}'
-              DATABASE_USERNAME: '#{db.dbUsername}'
-              DATABASE_PASSWORD: '#{db.dbPassword}'
+              DATABASE_URL: '#{SubscriptionDB.dbUrl}'
+              DATABASE_PORT: '#{SubscriptionDB.dbPort}'
+              DATABASE_USERNAME: '#{SubscriptionDB.dbUsername}'
+              DATABASE_PASSWORD: '#{SubscriptionDB.dbPassword}'
         rid_2:
           name: SubscriptionDB
           type: DATABASE
