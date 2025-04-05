@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Replit
-  appName: LoggerService
+  project: Facebook
+  appName: ChatService
   env:
     staging:
       branch: staging
