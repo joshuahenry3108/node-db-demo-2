@@ -3,7 +3,7 @@ revolte:
   project: vec
   appName: node-be-demo
   env:
-    qa:
+    staging:
       branch: main
       services:
         rid_1:
