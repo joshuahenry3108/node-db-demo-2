@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
   project: vec
-  appName: be-2
+  appName: node-be-demo
   env:
     qa:
       branch: main
