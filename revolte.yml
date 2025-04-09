@@ -11,8 +11,8 @@ revolte:
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
-            cpu: 4
-            memory: 8
+            cpu: 2
+            memory: 4
             storage: 40
           properties:
             health: /health
@@ -27,7 +27,7 @@ revolte:
           name: SubscriptionDB
           type: DATABASE
           specifications:
-            cpu: 4
-            memory: 8
+            cpu: 2
+            memory: 2
             storage: 30
             engine: postgres
