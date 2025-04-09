@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: vec
-  appName: node-be-demo
+  project: Dummy-Project
+  appName: Node-Postgres
   env:
     staging:
       branch: main
