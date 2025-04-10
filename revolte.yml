@@ -3,7 +3,7 @@ revolte:
   project: Ares
   appName: Apollo13
   env:
-    staging:
+    qa:
       branch: main
       services:
         rid_1:
