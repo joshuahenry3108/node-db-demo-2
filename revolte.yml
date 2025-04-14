@@ -3,7 +3,7 @@ revolte:
   project: Armageddon
   appName: booster-equalizer
   env:
-    staging:
+    qa:
       branch: main
       services:
         rid_1:
