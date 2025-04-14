@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Clover Kingdom
-  appName: Devil-Arc
+  project: Armageddon
+  appName: booster-equalizer
   env:
     staging:
       branch: main
