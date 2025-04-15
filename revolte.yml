@@ -11,14 +11,14 @@ revolte:
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
-            cpu: 
+            cpu: 2
             memory: 4
-            storage: 40
+            storage: -1
           properties:
             health: /health
             port: 8080
             variables:
-              BASE_URL: /api/v1
+              BASE_URL: www.google.com
               DATABASE_URL: '#{SubscriptionDB.dbUrl}'
               DATABASE_PORT: '#{SubscriptionDB.dbPort}'
               DATABASE_USERNAME: '#{SubscriptionDB.dbUsername}'
