@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Armageddon
-  appName: booster-equalizer
+  project: diff name
+  appName: diff name
   env:
     qa:
       branch: main
