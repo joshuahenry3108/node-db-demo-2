@@ -14,10 +14,10 @@ revolte:
             cpu: 2
             memory: 4
             storage: 30
-          properties:
-            health: /health
-            port: 8080
-            variables:
+         # properties:
+          #  health: /health
+           # port: 8080
+           # variables:
               BASE_URL: www.google.com
               DATABASE_URL: '#{SubscriptionDB.dbUrl}'
               DATABASE_PORT: '#{SubscriptionDB.dbPort}'
