@@ -11,7 +11,7 @@ revolte:
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
-            cpu: 2
+            cpu: 200000
             memory: 4
             storage: 30
           properties:
@@ -19,7 +19,7 @@ revolte:
             port: 8080
             variables:
               BASE_URL: www.google.com
-              DATABASE_URL: '#{ABC.dbUrl}'
+              DATABASE_URL: '#{SubscriptionDB.dbUrl}'
               DATABASE_PORT: '#{SubscriptionDB.dbPort}'
               DATABASE_USERNAME: '#{SubscriptionDB.dbUsername}'
               DATABASE_PASSWORD: '#{SubscriptionDB.dbPassword}'
@@ -28,6 +28,6 @@ revolte:
           type: DATABASE
           specifications:
             cpu: 2
-            memory: 2
+            memory: -1
             storage: 30
             engine: postgres
