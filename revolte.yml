@@ -1,6 +1,6 @@
 revolte:
   version: '1.0'
-  project: testcaseflow
+  project: testcasesflow
   appName: beapp
   env:
     qa:
