@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: diff name
-  appName: diff name
+  project: testcaseflow
+  appName: beapp
   env:
     qa:
       branch: main
@@ -11,7 +11,7 @@ revolte:
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
-            cpu: 2
+            cpu: 
             memory: 4
             storage: 40
           properties:
