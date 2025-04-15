@@ -3,7 +3,7 @@ revolte:
   project: testcasesflow
   appName: beapp
   env:
-    qa:
+    qa12:
       branch: main2
       services:
         rid_1:
