@@ -11,7 +11,7 @@ revolte:
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
-            cpu: 200000
+            cpu: 2
             memory: 4
             storage: 30
           properties:
@@ -28,6 +28,5 @@ revolte:
           type: DATABASE
           specifications:
             cpu: 2
-            memory: -1
             storage: 30
             engine: postgres
