@@ -31,19 +31,3 @@ revolte:
             memory: 2
             storage: 30
             engine: postgres
-        rid_3:
-          name: SubscriptionDB
-          type: DATABASE
-          specifications:
-            cpu: 2
-            memory: 2
-            storage: 30
-            engine: postgres
-        rid_4:
-          name: SubscriptionDB
-          type: DATABASE
-          specifications:
-            cpu: 2
-            memory: 2
-            storage: 30
-            engine: postgres
