@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: NewProject
-  appName: node Demo
+  project: Paradis Island
+  appName: Backend-ODM-Gear
   env:
     staging:
       branch: main2
