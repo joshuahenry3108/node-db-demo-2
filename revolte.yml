@@ -3,7 +3,7 @@ revolte:
   project: NewProject
   appName: node Demo
   env:
-    qa:
+    staging:
       branch: main2
       services:
         rid_1:
