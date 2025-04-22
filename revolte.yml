@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: testcasesflow
-  appName: beapp
+  project: NewProject
+  appName: node Demo
   env:
     qa:
       branch: main2
