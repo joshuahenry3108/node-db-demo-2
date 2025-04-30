@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Paradis Island
-  appName: Backend-ODM-Gear
+  project: salesforce20
+  appName: CRM-be
   env:
     staging:
       branch: main2
