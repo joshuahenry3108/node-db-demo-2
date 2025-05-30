@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: ZenPro
-  appName: zen-app
+  project: Pampa
+  appName: next-be
   env:
     production:
       branch: main
