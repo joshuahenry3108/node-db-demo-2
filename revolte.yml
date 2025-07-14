@@ -1,16 +1,15 @@
 revolte:
   version: '1.0'
-  project: Facebook
-  appName: ChatService
+  project: July new
+  appName: node-be
   env:
-    staging:
+    production:
       branch: staging
       services:
         rid_1:
-          name: SubscriptionService
+          name: web-service
           type: WEB_SERVICE
           entryPoint: index.js
-          domain: api.revolte.com
           specifications:
             cpu: 2
             memory: 2
@@ -24,15 +23,16 @@ revolte:
             port: 8080
             variables:
               BASE_URL: /api/v1
-              DATABASE_URL: '#{SubscriptionDB.dbUrl}'
-              DATABASE_PORT: '#{SubscriptionDB.dbPort}'
-              DATABASE_USERNAME: '#{SubscriptionDB.dbUsername}'
-              DATABASE_PASSWORD: '#{SubscriptionDB.dbPassword}'
+              DATABASE_URL: '#{db.dbUrl}'
+              DATABASE_PORT: '#{db.dbPort}'
+              DATABASE_USERNAME: '#{db.dbUsername}'
+              DATABASE_PASSWORD: '#{db.dbPassword}'
+              DATABASE_NAME: '#{db.dbName}'
         rid_2:
-          name: SubscriptionDB
+          name: db
           type: DATABASE
           specifications:
-            cpu: 2
-            memory: 2
-            storage: 30
             engine: postgres
+            cpu: 2
+            memory: 4
+            storage: 20
