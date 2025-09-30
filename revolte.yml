@@ -1,10 +1,10 @@
 revolte:
   version: '1.0'
-  project: casagrand
-  appName: node
+  project: Swimlab
+  appName: api-service
   env:
     staging:
-      branch: qa
+      branch: staging
       services:
         rid_1:
           type: WEB_SERVICE
@@ -33,7 +33,7 @@ revolte:
             storage: 50
             engine: postgres
     qa:
-      branch: qa
+      branch: main
       services:
         rid_1:
           type: WEB_SERVICE
@@ -62,7 +62,7 @@ revolte:
             storage: 50
             engine: postgres
     production:
-      branch: main
+      branch: qa
       services:
         rid_1:
           type: WEB_SERVICE
